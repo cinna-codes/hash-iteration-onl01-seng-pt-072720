@@ -14,6 +14,10 @@ end
 def age_appropriate_birthday(birthday_kids)
   birthday_kids.each do |name, age|
     if age <= 12
-      puts
+      puts "Happy Birthday #{name}! You are now #{age} years old!"
+    else
+      puts "You are too old for this."
     end
 end
+
+# Happy Birthday Sarah! You are now 6 years old!\nYou are too old for this.
